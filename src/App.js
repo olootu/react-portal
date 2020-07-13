@@ -20,7 +20,8 @@ class App extends Component {
     return (
       <div className="item-holder">
 
-        <center><h1 className="title">Book List</h1>
+        <center>
+          <h1 className="title">Book List</h1>
           <Search handleInputChanged={this.handleInputChanged} handleSubmit={this.handleSubmit} />
           {this.state.showing
             ? <div className="message">Oops... no item found!</div>
