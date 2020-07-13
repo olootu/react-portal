@@ -5,7 +5,6 @@ import Search from './components/search';
 import axios from 'axios';
 import './App.scss';
 
-
 class App extends Component {
   state = {
     books: [],
